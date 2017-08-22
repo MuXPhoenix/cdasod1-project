@@ -49,18 +49,33 @@
                 class="menu-item-parent">{{'产品管理' | i18n}}</span></a>
         <ul>
           <li routerLinkActive="active">
-            <a routerLink="/tables/staff">{{'产品' | i18n}}</a>
+            <a routerLink="/tables/product">{{'产品' | i18n}}</a>
           </li>
-          <li routerLinkActive="active">
-            <a routerLink="/forms/validation">{{'库存' | i18n}}</a>
-          </li>
-          <li routerLinkActive="active">
-            <a routerLink="/graphs/flot-charts">{{'订单' | i18n}}</a>
-          </li>
+
         </ul>
       </li>
 
+      <li>
+        <a href="#"><i class="fa fa-lg fa-fw fa-cube txt-color-blue"></i> <span
+                class="menu-item-parent">{{'销售管理' | i18n}}</span></a>
+        <ul>
+          <li routerLinkActive="active">
+            <a routerLink="/graphs/flot-charts">{{'订单' | i18n}}</a>
+          </li>
 
+        </ul>
+      </li>
+
+      <li>
+        <a href="#"><i class="fa fa-lg fa-fw fa-cube txt-color-blue"></i> <span
+                class="menu-item-parent">{{'库存管理' | i18n}}</span></a>
+        <ul>
+          <li routerLinkActive="active">
+            <a routerLink="/graphs/flot-charts">{{'库存' | i18n}}</a>
+          </li>
+
+        </ul>
+      </li>
     </ul>
   </nav>
 

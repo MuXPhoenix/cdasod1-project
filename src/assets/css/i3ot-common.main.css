@@ -630,3 +630,10 @@ nav ul ul>li:hover b {
     border-style: solid;
     background: #FFF
 }
+/*产品管理-产品*/
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
