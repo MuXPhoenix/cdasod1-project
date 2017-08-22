@@ -19,6 +19,18 @@
       </li>
 
       <li>
+        <a href="#"><i class="fa fa-lg fa-fw fa-unlock-alt"></i> <span
+                class="menu-item-parent">{{'客户管理' | i18n}}</span></a>
+        <ul>
+          <li routerLinkActive="active">
+            <a routerLink="/tables/client">{{'客户列表' | i18n}}</a>
+          </li>
+          <li routerLinkActive="active">
+            <a routerLink="/forms/customer">{{'添加客户' | i18n}}</a>
+          </li>
+        </ul>
+      </li>
+      <li>
         <a href="#"><i class="fa fa-lg fa-fw fa-cube txt-color-blue"></i> <span
                 class="menu-item-parent">{{'人事管理' | i18n}}</span></a>
         <ul>
@@ -37,7 +49,7 @@
                 class="menu-item-parent">{{'产品管理' | i18n}}</span></a>
         <ul>
           <li routerLinkActive="active">
-            <a routerLink="/tables/staff">{{'产品列表' | i18n}}</a>
+            <a routerLink="/tables/staff">{{'产品' | i18n}}</a>
           </li>
           <li routerLinkActive="active">
             <a routerLink="/forms/validation">{{'库存' | i18n}}</a>
@@ -48,18 +60,7 @@
         </ul>
       </li>
 
-      <li>
-        <a href="#"><i class="fa fa-lg fa-fw fa-unlock-alt"></i> <span
-                class="menu-item-parent">{{'企业设置' | i18n}}</span></a>
-        <ul>
-          <li routerLinkActive="active">
-            <a routerLink="/tables/client">{{'客户列表' | i18n}}</a>
-          </li>
-          <li routerLinkActive="active">
-            <a routerLink="/forms/customer">{{'添加客户' | i18n}}</a>
-          </li>
-        </ul>
-      </li>
+
     </ul>
   </nav>
 
